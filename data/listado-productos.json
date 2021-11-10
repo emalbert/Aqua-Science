@@ -1,0 +1,9 @@
+[{"nombre":"Cloro Líquido","presentacion":"1lt","precio":1500,"cantidad":1,"destacado": false,"imagen":"../img/productos/cloro-liquido.jpg"},
+{"nombre":"Alguicida","presentacion":"1lt","precio":2000,"cantidad":1,"destacado": true,"imagen":"../img/productos/alguicida.jpg"},
+{"nombre":"Robot Limpiafondo","presentacion":"1u","precio":65000,"cantidad":1,"destacado": true,"imagen":"../img/productos/robot.jpg"},
+{"nombre":"Barrefondo","presentacion":"1u","precio":10000,"cantidad":1,"destacado": false,"imagen":"../img/productos/barrefondo.jpg"},
+{"nombre":"Aplique Luz Led","presentacion":"1u","precio":12000,"cantidad":1,"destacado": false,"imagen":"../img/productos/led-piscina.jpg"},
+{"nombre":"Clarificante","presentacion":"1lt","precio":3000,"cantidad":1,"destacado": true,"imagen":"../img/productos/clarificante.jpg"},
+{"nombre":"Cloro Granulado","presentacion":"2kg","precio":2500,"cantidad":1,"destacado": true,"imagen":"../img/productos/cloro-granulado.jpg"},
+{"nombre":"Pastillas de Cloro","presentacion":"5kg","precio":8000,"cantidad":1,"destacado": false,"imagen":"../img/productos/pastillas-cloro.jpg"},
+{"nombre":"Sulfato de Cobre","presentacion":"3kg","precio":6000,"cantidad":1,"destacado": false,"imagen":"../img/productos/sulfato-cobre.jpg"}]

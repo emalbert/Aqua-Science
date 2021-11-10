@@ -1,0 +1,280 @@
+/*** Estilos Generales ***/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tr {
+    margin:10px;
+
+}
+
+td, th{
+    padding: 10px 15px 10px 15px;
+    border: 1px solid grey;
+}
+
+h2 {
+    padding-top: 16px;
+}
+
+hr {
+    border: 2px solid;
+}
+
+.btn {
+    margin-top: 16px;
+}
+
+.links-styles {
+    text-decoration: none;
+    margin-top: 24px !important;
+}
+
+
+/*** Productos Tienda ***/
+
+#tabla-productos {
+    margin-top:24px;
+}
+
+.card-producto {
+    margin:24px;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.btn-compra {
+    font-weight: 600 !important;
+    background-color: #043266;
+    border: 1px solid lightslategray;
+}
+
+.btn-compra:hover {
+    background-color: limegreen;
+    border: 1px solid limegreen;
+}
+
+
+/*** Sección Navbar ***/
+
+#itemLogin {
+    color:#6FC2EE;
+}
+
+.bg-primary {
+    background-color: rgb(4, 50, 102) !important;
+    border-bottom: 1px solid #0093D5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse{
+        justify-content: flex-end !important;
+    }
+}
+
+
+/*** Sección Slider ***/
+
+.carousel-caption {
+    bottom: 40% !important;
+}
+
+.carousel-item h2 {
+    font-size: 4em;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(55, 55, 185), 0 0 0.2em rgb(35, 35, 161);
+}
+
+.carousel-item p {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(55, 55, 185), 0 0 0.2em rgb(35, 35, 161);
+}
+
+@media (max-width: 1024px) {
+    .carousel-caption {
+        bottom: 30% !important;
+    }
+    .carousel-item h2 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 20% !important;
+    }
+    .carousel-item h2 {
+        font-size: 2em;
+    }
+}
+
+section {
+    min-height: 400px;
+}
+
+
+/*** Sección Detalle Producto ***/
+
+#nosotros {
+    padding: 80px 4.5%;
+    background-color: #F9F9F9;
+    color: #171717;
+    display: flex;
+}
+
+#nosotros  p {
+    line-height: 2.5rem;
+}
+
+#nosotros img {
+    border: 1px solid rgba(0,0,0,0.5);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+
+#nosotros .row {
+    align-items: center !important;
+}
+
+@media (max-width: 992px) {
+    #nosotros p {
+        text-align: center;
+    }
+}
+
+
+/*** Tienda ***/
+.card-group {
+    justify-content: space-between;
+}
+
+
+/*** Sección Servicios ***/
+
+#servicios p {
+    margin: 8px 32px 64px 32px;
+    text-align: center;
+}
+
+.box-servicios {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top:32px;
+
+}
+
+.box-servicios:hover {
+background-color: rgb(224, 220, 220, 0.45);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subtitulos-servicios {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 600;
+    color: #043266;
+}
+
+.imgs-servicios {
+    padding-top: 25px;
+    display:flex;
+    align-self: center;
+    width: 20%;
+}
+
+
+/*** Productos destacados ***/
+
+#productos-destacados {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.productos-destacados {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+/*** Sección Contacto ***/
+
+#contacto img {
+    border: 1px solid rgba(0,0,0,0.5);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 80%;
+}
+
+.content-contacto {
+    margin-top: 64px;
+}
+
+.content-contacto p {
+    line-height: 2.5rem;
+}
+
+.content-contacto ul {
+    margin-bottom: 64px;
+}
+.content-contacto li {
+    padding: 32px;
+    border-bottom: 2px #043266 solid;
+    list-style-type: none;
+}
+
+
+/*** Sección Formulario ***/
+
+.aclaracion-imagen {
+    font-size: 10px;
+    /*font-weight: 600;*/
+    padding-top: 8px;
+}
+
+@media (max-width: 992px) {
+    .content-contacto p {
+        text-align: center;
+    }
+}
+
+
+/*** Sección Footer ***/
+
+#footer {
+    border-top: 1px solid lightslategray;
+    display: flex;
+    margin-top: 16px;
+    min-height: 50px;
+    background-color: #E2F2FF;
+}
+
+.footer-texto {
+    font-size: 0.8rem;
+    margin:0px;
+    padding:0px;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-top: 16px;
+    color: darkblue;
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+

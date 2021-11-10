@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Malbert - Trabajo Final - Coderhouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Aqua Science"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html" aria-disabled="true">Tienda</a>
+                        </li>
+                        <!-- Espacio para insertar el item con link al Dashboard exclusivo para el usuario Admin -->
+                        <span id="espacioDashboard"></span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html"><i class="bi bi-cart2"></i> <span id="carrito-valor"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html" id="itemLogin">Login</a>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+        </nav>
+
+        <!-- Main Carousel Section Start -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider/slide03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Mantenimiento de Piscinas</h2>
+                    <p>Condiciones óptimas de mantenimiento todo el año</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/slide02.jpg"" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Desarrollo de Proyectos</h2>
+                    <p>Reformas de piscinas y proyectos integrales a medida</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/slide01.jpg"" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Iluminación Interior</h2>
+                    <p>Disfrute de su piscina con seguridad incluso de noche</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <!-- Main Carousel Section End -->
+    </header>
+    <section id="productos-destacados">
+        <div class="container">
+            <div class="row">
+                <h1>Productos Destacados</h1>
+                <hr />
+            </div>
+            <!-- Sección en donde se insertarán dinámicamente 3 primeros productos cargados como destacados -->
+            <div class="row productos-destacados">
+            </div>
+        </div>
+    </section>
+    <section id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <p>Nos especializamos en el mantenimiento de piscinas tanto hogareñas como de grandes dimensiones. Contamos con una gran variedad de productos y accesorios para mantener su piscina en condiciones todos el año.</p>
+                    <p>Además contamos con un departamente de ingeniería dedicado para la planificación de su proyecto desde cero o la reforma de su obra existente. Ya sea que requiera una ampliación, un cambio de materiales de recubrimiento u obras de paisajismo en la periferia del espejo de agua.</p>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <img src="img/piscina01.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servicios">
+        <div class="container">
+            <div class="row">
+                <h1 class="pt-5">Nuestros Servicios</h1>
+                <hr />
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="box-servicios">
+                        <img src="img/vectores/filter.png" alt="" class="imgs-servicios">
+                        <h4 class="subtitulos-servicios">Mantenimiento</h4>
+                        <p>Nuestros productos cuentan con todas las certificaciones sanitarias y químicas necesarias que garantizan no sólo su efectividad sino también el cuidado de su familia y mascotas.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="box-servicios">
+                        <img src="img/vectores/tools.png" alt="" class="imgs-servicios">
+                        <h4 class="subtitulos-servicios">Reparación</h4>
+                        <p>Contamos con personal idóneo para resolver los problemas estructurales de su piscina. Desde pequeñas pérdidas hasta necesidades puntuales en materia de direccionamiento hídrico.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="box-servicios">
+                        <img src="img/vectores/architect.png" alt="" class="imgs-servicios mx-auto d-block">
+                        <h4 class="subtitulos-servicios">Ampliaciones</h4>
+                        <p>Somos fabricantes e importadores de una amplia gama de materiales para la construcción, ampliación y paisajismo de su piscina. Junto a nuestro personal especializado, le brindamos las mejores opciones para renovar su proyecto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container">
+            <div class="row">
+                <h1 class="pt-5">Contacto</h1>
+                <hr />
+            </div>
+            <div class="row content-contacto">
+                <div class="col-md-12 col-lg-6">
+                    <img class="mx-auto d-block" src="img/piscina02.jpg" />
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <p>"Consideramos como aspecto fundamental para el progreso y crecimiento de nuestra firma la necesidad de brindar a nuestros clientes el mejor servicio de asesoramiento en el cuidado y mantenimiento de su piscina. Estos han sido los pilares fundamentales que han avalado nuestra trayectoria y sobre los cuales creemos de gran importancia ya que nos permiten poder estrechar relaciones mas confiables y duraderas con nuestros clientes."</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>mail@dominio.com</li>
+                        <li>xxxx - xxx xxx xxx</li>
+                        <li>@instagram.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 contenedor-footer">
+                        <p class="footer-texto">© 2021. Desarrollado con <i class="fa fa-heart" aria-hidden="true"></i> para <a href="https://www.coderhouse.com" target="_blank">Coderhouse</a> por Eduardo Malbert.</p>
+                    </div>
+                </div>              
+            </div>
+        </section>
+    </footer>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/globales.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
